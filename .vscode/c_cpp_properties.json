@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Pico",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${userHome}/.pico-sdk/sdk/1.5.1/**",
+                "C:/Users/skull/.pico-sdk/sdk/1.5.1/src/host/hardware_gpio/include/hardware",
+                "C:/Users/skull/.pico-sdk/sdk/1.5.1/src/common/pico_stdlib/include",
+                "C:/Users/skull/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_i2c/include/hardware",
+                "C:/Users/skull/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_gpio/include",
+                "C:/Users/skull/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/include"
+            ],
+            "forcedInclude": [
+                "${userHome}/.pico-sdk/sdk/1.5.1/src/common/pico_base/include/pico.h",
+                "${workspaceFolder}/build/generated/pico_base/pico/config_autogen.h"
+            ],
+            "defines": [],
+            "compilerPath": "${userHome}/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc.exe",
+            "compileCommands": [
+                "${workspaceFolder}/build/compile_commands.json"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-gcc-arm"
+        }
+    ],
+    "version": 4
+}
