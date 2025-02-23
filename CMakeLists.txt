@@ -42,6 +42,8 @@ add_executable(projetoFinalEmbarcaTech
                src/ssd1306_i2c.c
                src/leds.c
                src/buzzer.c
+               src/alert.c
+               src/display.c
 )
 
 pico_set_program_name(projetoFinalEmbarcaTech "projetoFinalEmbarcaTech")

@@ -5,11 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "${userHome}/.pico-sdk/sdk/1.5.1/**",
-                "C:/Users/skull/.pico-sdk/sdk/1.5.1/src/host/hardware_gpio/include/hardware",
                 "C:/Users/skull/.pico-sdk/sdk/1.5.1/src/common/pico_stdlib/include",
-                "C:/Users/skull/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_i2c/include/hardware",
-                "C:/Users/skull/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_gpio/include",
-                "C:/Users/skull/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/include"
+                "${workspaceFolder}"
             ],
             "forcedInclude": [
                 "${userHome}/.pico-sdk/sdk/1.5.1/src/common/pico_base/include/pico.h",
